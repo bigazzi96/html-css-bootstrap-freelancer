@@ -1,3 +1,17 @@
-header{
+.jumbotron{
     background-color: #1abc9c;
+    color: white;
+}
+
+body{
+    font-family: sans-serif;
+}
+li{list-style: none;}
+
+.articolo{
+    width: 90%;
+}
+
+.articolo img{
+    width: 100%;
 }
