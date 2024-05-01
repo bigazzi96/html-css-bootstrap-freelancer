@@ -3,10 +3,14 @@
     color: white;
 }
 
+.jumbotron img{
+    width: 300px;
+}
 body{
     font-family: sans-serif;
 }
-li{list-style: none;}
+li{
+    list-style: none;}
 
 .articolo{
     width: 90%;
@@ -14,4 +18,30 @@ li{list-style: none;}
 
 .articolo img{
     width: 100%;
+}
+
+.about{
+    background-color: #1abc9c;
+    color: white;
+}
+
+.container-about{
+    width: 58%;
+}
+
+.linea{
+    width: 250px;
+    height: 3px;
+    background-color: white;
+    color: #ffffff00;
+}
+
+.footer-alto{
+   background-color: #3a546d;
+   color: white;
+}
+
+.footer-basso{
+    background-color: #2c3e50;
+    color: white;
 }
