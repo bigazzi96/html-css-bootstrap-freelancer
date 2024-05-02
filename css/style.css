@@ -17,7 +17,7 @@ li{
 }
 
 .articolo img{
-    width: 100%;
+    max-width:200px;
 }
 
 .about{
@@ -44,4 +44,27 @@ li{
 .footer-basso{
     background-color: #2c3e50;
     color: white;
+}
+
+.icone i{
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.navbar-light .navbar-brand{
+    color: white;
+}
+
+div.star >i::before
+div.star >i::after{
+    content:'';
+    width: 250px;
+    height: 3px;
+    background-color: white;
+    vertical-align: middle;
+    display: inline-block
+
+
 }
